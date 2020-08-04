@@ -1,1 +1,1 @@
-# esp32-swooping-robot
+This is a camera controller setup for swooping, speedflying, paragliding, kamikaze, etc. It uses an ESP32 with an HP303B to broadcast its altitude over ESP-NOW mounted anywhere on the pilot (range is around 300-400m), an ESP32 on the ground station receiving the ESP-NOW packets and comparing the pilot's height to its own HP303B altitude reading and starting to shoot photos/video once the pilot is within vertical range (currently 450m to start video, 50m to start shooting photos).
